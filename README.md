@@ -1,6 +1,6 @@
 # pdq-deploy
 
-**DefaultPowerSettings.xml**
+**Default Power Settings**
 
 This package sets Balanced Power Plan in Control Panel Power Options to custom settings:
 

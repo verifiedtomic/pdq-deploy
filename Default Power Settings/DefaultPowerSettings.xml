@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="19.2.137.0" MinimumVersion="17.0">
-<Package>
+  <Package>
     <CurrentLibraryPackageVersionId value="null" />
     <PackageDefinition name="Definition">
       <Conditions type="list">
@@ -29,7 +29,7 @@
       <Steps type="list">
         <InstallStep>
           <CustomCommandLine></CustomCommandLine>
-          <FileName>\\Folder\PowerSettings.bat</FileName>
+          <FileName>\\Folder\PowerSettings.bat</FileName> <!-- Here change the path to the .bat file -->
           <Files></Files>
           <IncludeDirectory value="true" />
           <LeaveInstallFile value="false" />
@@ -76,7 +76,7 @@
     <FolderId value="36" />
     <LibraryPackageVersionId value="null" />
     <Name>Default power options</Name>
-    <Path></Path>
+    <Path>PDQ\Folder</Path> <!-- Here change the Path according your PDQ packages hierarchy -->
     <PackageDisplaySettings name="DisplaySettings">
       <DisplayType>Normal</DisplayType>
       <IconKey>Icon-Package</IconKey>

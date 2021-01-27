@@ -1,6 +1,6 @@
 # pdq-deploy
 
-**Default Power Settings**
+## Default Power Settings
 
 This package sets Balanced Power Plan in Control Panel Power Options to custom settings:
 
@@ -17,7 +17,7 @@ You can create your own power plan on [Windows AFG site](https://www.windowsafg.
 
 You can also use this package settings to run other .bat files!
 
-**Install Network Printer**
+## Install Network Printer
 
 This package disables *Let Windows manage default printer*, installs the network printer to the PC, and set's it to be the default printer via PowerShell.
 

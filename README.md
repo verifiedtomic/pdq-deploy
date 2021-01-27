@@ -9,7 +9,7 @@ Action | On battery | Plugged in
 Turn off the display | 45 minutes | 1 hour
 Put the computer to sleep | 1 hour | Never
 Low battery | 10% | 10%
-Critical batter | 3% | 3%
+Critical battery | 3% | 3%
 
 You can create your own power plan on [Windows AFG site](https://www.windowsafg.com/power10.html), save the commands in .bat file and replace my PowerSettings.bat with yours in the Install step.
 

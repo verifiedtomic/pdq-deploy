@@ -140,6 +140,6 @@
     <PackageDisplaySettings name="DisplaySettings">
       <DisplayType>Normal</DisplayType>
       <IconKey>Icon-Package</IconKey>
-      <SortOrder value="1" />
+      <SortOrder value="0" />
     </PackageDisplaySettings>
   </Package>

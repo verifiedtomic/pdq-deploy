@@ -24,3 +24,11 @@ This package disables *Let Windows manage default printer*, installs the network
 **Important option is to run this package as Logged on user, because this PS script installs the printer to current user**
 
 **You must restart the PC after the package is complete so that printer can become active**
+
+## Install Teams Meetings Backgrounds
+
+This package copies custom background images from source to logged-on user AppData folder
+
+**Important option is to run this package as Logged on user, because Teams pulls backgrounds for every user from their AppData folder**
+
+**You must restart the Teams app after the package is complete because Teams loads backgrounds from folder on startup**

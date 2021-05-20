@@ -1,4 +1,6 @@
-<Package>
+<?xml version="1.0" encoding="utf-8"?>
+<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="19.2.137.0" MinimumVersion="17.0">
+  <Package>
     <CurrentLibraryPackageVersionId value="null" />
     <PackageDefinition name="Definition">
       <Conditions type="list">
@@ -32,8 +34,10 @@
           <IgnoreOverwriteErrors value="true" />
           <IncludeSubFolders value="false" />
           <Mode>Folder</Mode>
-          <Source>\\server\folder\</Source> <!--Here type source folder where images are stored-->
-          <Target>%APPDATA%\Microsoft\Teams\Backgrounds\Uploads</Target> <!--Teams pulls backgorunds from Current User appdata-->
+          <Source>\\server\folder\</Source>
+          <!--Here type source folder where images are stored-->
+          <Target>%APPDATA%\Microsoft\Teams\Backgrounds\Uploads</Target>
+          <!--Teams pulls backgorunds from Current User appdata-->
           <RunAs>LoggedOnUser</RunAs>
           <Conditions type="list">
             <PackageStepCondition>

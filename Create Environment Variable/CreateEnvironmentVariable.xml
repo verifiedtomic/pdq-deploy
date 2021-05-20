@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="19.2.137.0" MinimumVersion="17.0">
   <Package>
     <CurrentLibraryPackageVersionId value="null" />
     <PackageDefinition name="Definition">
@@ -26,7 +28,8 @@
       <ScanAfterDeployment value="null" />
       <Steps type="list">
         <CommandStep>
-          <Command>setx VARIABLE_NAME "1010" /M</Command> <!--Here type the variable name and value-->
+          <Command>setx VARIABLE_NAME "1010" /M</Command>
+          <!--Here type the variable name and value-->
           <Files></Files>
           <SuccessCodes>0</SuccessCodes>
           <RunAs value="null" />

@@ -1,5 +1,11 @@
 # pdq-deploy
 
+## Create Environment Variable
+
+This package creates system environment variable in Windows OS.
+
+**You must restart the PC after the package is complete, because OS loads environment variables on startup.**
+
 ## Default Power Settings
 
 This package sets Balanced Power Plan in Control Panel Power Options to custom settings:
@@ -32,9 +38,3 @@ This package copies custom background images from source to logged-on user AppDa
 **Important option is to run this package as Logged on user, because Teams pulls backgrounds for every user from their AppData folder.**
 
 **You must restart the Teams app after the package is complete because Teams loads backgrounds from folder on startup.**
-
-## Create Environment Variable
-
-This package creates system environment variable in Windows OS.
-
-**You must restart the PC after the package is complete, because OS loads environment variables on startup.**

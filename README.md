@@ -45,7 +45,7 @@ This isn't PDQ Deploy package, but if you are using PDQ you probably don't have 
 Microsoft Deployment Toolkit is enables you to deploy default and custom Windows images over network and PXE boot.
 MDT is a standalone feature that can be enabled on Windows Server machine or [installed on any Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=54259) machine that will act as deployment server.
 
-I suggest reading [MDT documentation](https://docs.microsoft.com/en-us/mem/configmgr/mdt/?redirectedfrom=MSDN) before configurin MDT in your environment.
+I suggest reading [MDT documentation](https://docs.microsoft.com/en-us/mem/configmgr/mdt/?redirectedfrom=MSDN) before configuring MDT in your environment.
 
 In this repository's folder you'll find three most important files for unattanded Windows installation:
 - Bootstrap.ini
